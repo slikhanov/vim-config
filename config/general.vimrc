@@ -27,7 +27,7 @@ set vb
 syntax enable
 
 try
-    colorscheme vim-material
+    colorscheme nord
 catch
 endtry
 

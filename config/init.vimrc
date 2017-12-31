@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline-themes'
 " Colorschemes
 Plug 'junegunn/seoul256.vim'
 Plug 'hzchirs/vim-material'
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
