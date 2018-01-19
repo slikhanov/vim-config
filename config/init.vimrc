@@ -5,6 +5,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'IN3D/vim-raml'
 
 " Colorschemes
 Plug 'junegunn/seoul256.vim'

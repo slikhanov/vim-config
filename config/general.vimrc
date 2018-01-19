@@ -5,7 +5,7 @@ set encoding=utf-8
 
 set history=200
 filetype plugin on
-filetype indent on
+"filetype indent on
 
 set shiftwidth=4
 set expandtab
