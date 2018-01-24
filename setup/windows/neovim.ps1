@@ -1,4 +1,6 @@
 $pluginFile = "~\AppData\Local\nvim\autoload\plug.vim"
+$initFile = "~\AppData\Local\nvim\init.vim"
+$ginitFile = "~\AppData\Local\nvim\ginit.vim"
 If (Test-Path $pluginFile)
 {
   Write-Output "Vim-Plug already installed.. Skip to the next step."
@@ -31,6 +33,15 @@ If (Test-Path $initFile)
 Else
 {
   New-Item -ItemType SymbolicLink -Path ~\AppData\Local\nvim -Name init.vim -Value ~\vimconfig\init.vim
+}
+
+If (Test-Path $ginitFile)
+{
+  Write-Output "ginit.vim is already sym-linked"
+}
+Else
+{
+  New-Item -ItemType SymbolicLink -Path ~\AppData\Local\nvim -Name ginit.vim -Value ~\vimconfig\ginit.vim
 }
 
 
