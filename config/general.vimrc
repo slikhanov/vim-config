@@ -31,3 +31,4 @@ try
 catch
 endtry
 
+let g:airline_powerline_fonts=1

@@ -1,2 +1,1 @@
-guioptions=mlrb
-
+Guifont! Roboto Mono Light for Powerline:h10
