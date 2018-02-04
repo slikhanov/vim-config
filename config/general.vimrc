@@ -32,3 +32,7 @@ catch
 endtry
 
 let g:airline_powerline_fonts=1
+
+" Use deoplete
+let g:deoplete#enable_at_startup=1
+
