@@ -36,3 +36,5 @@ let g:airline_powerline_fonts=1
 " Use deoplete
 let g:deoplete#enable_at_startup=1
 
+" Align GitHub-flavored Markdown tables
+au FileType markdown vmap <Leader>t :EasyAlign*<Bar><Enter>
