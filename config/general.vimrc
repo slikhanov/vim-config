@@ -17,6 +17,9 @@ set ignorecase smartcase
 set number
 set relativenumber
 
+" Enable unified system clipboard
+set clipboard+=unnamedplus
+
 " Set command line height to 2
 set ch=2
 
@@ -38,3 +41,4 @@ let g:deoplete#enable_at_startup=1
 
 " Align GitHub-flavored Markdown tables
 au FileType markdown vmap <Leader>t :EasyAlign*<Bar><Enter>
+
