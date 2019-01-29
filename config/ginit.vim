@@ -1,8 +1,6 @@
-try
-    Guifont! Roboto Mono Light for Powerline:h10
-catch
-    Guifont! Roboto Mono for Powerline:h10
-endtry    
-
+GuiFont! Fira Code Retina:h11
 call rpcnotify(0, 'Gui', 'WindowMaximized', 1)
 
+if @% == ""
+    bd
+endif
