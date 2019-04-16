@@ -21,7 +21,7 @@ set relativenumber
 set clipboard+=unnamedplus
 
 " Set command line height to 2
-set ch=2
+" set ch=2
 
 " Turn the beep off
 set vb
@@ -34,11 +34,20 @@ try
 catch
 endtry
 
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\ ,space:·,eol:¬
+
 let g:airline_powerline_fonts=1
 
 " Use deoplete
 let g:deoplete#enable_at_startup=1
 
+" This is probably will be moved to separate file that defines keybindings
+let mapleader = ";"
+
 " Align GitHub-flavored Markdown tables
 au FileType markdown vmap <Leader>t :EasyAlign*<Bar><Enter>
+
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
 
