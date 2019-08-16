@@ -51,3 +51,12 @@ au FileType markdown vmap <Leader>t :EasyAlign*<Bar><Enter>
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
 
+" Fzf mappings
+nmap <leader>f :Files<CR>
+nmap <leader>F :GFiles<CR>
+nmap <leader>b :Buffers<CR>
+nmap <leader>h :History<CR>
+nmap <leader>l :BLines<CR>
+nmap <leader>L :Lines<CR>
+
+
