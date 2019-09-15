@@ -59,4 +59,7 @@ nmap <leader>h :History<CR>
 nmap <leader>l :BLines<CR>
 nmap <leader>L :Lines<CR>
 
+" Perforce integration 
+let g:perforce_open_on_change=1
+let g:perforce_prompt_on_open=1
 
