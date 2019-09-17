@@ -63,3 +63,6 @@ nmap <leader>L :Lines<CR>
 let g:perforce_open_on_change=1
 let g:perforce_prompt_on_open=1
 
+" Neomake configuration
+let g:neomake_open_list = 2
+
