@@ -58,6 +58,7 @@ nmap <leader>b :Buffers<CR>
 nmap <leader>h :History<CR>
 nmap <leader>l :BLines<CR>
 nmap <leader>L :Lines<CR>
+nmap <leader>/ :Rg 
 
 " Perforce integration 
 let g:perforce_open_on_change=1
