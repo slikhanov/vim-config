@@ -59,10 +59,11 @@ nmap <leader>h :History<CR>
 nmap <leader>l :BLines<CR>
 nmap <leader>L :Lines<CR>
 nmap <leader>/ :Rg 
+nmap <leader>* :Rg <C-R><C-W><CR>
 
 " Perforce integration 
 let g:perforce_open_on_change=1
-let g:perforce_prompt_on_open=1
+let g:perforce_prompt_on_open=0
 
 " Neomake configuration
 let g:neomake_open_list = 2
