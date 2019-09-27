@@ -12,6 +12,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'IN3D/vim-raml'
 Plug 'nfvs/vim-perforce'
 Plug 'neomake/neomake'
+Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 
 if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

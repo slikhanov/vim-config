@@ -51,6 +51,18 @@ au FileType markdown vmap <Leader>t :EasyAlign*<Bar><Enter>
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
 
+" Relative path  (src/foo.txt)
+nnoremap <leader>cf :let @*=expand("%")<CR>
+
+" Absolute path  (/something/src/foo.txt)
+nnoremap <leader>cF :let @*=expand("%:p")<CR>
+
+" Filename       (foo.txt)
+nnoremap <leader>ct :let @*=expand("%:t")<CR>
+
+" Directory name (/something/src)
+nnoremap <leader>ch :let @*=expand("%:p:h")<CR>
+
 " Fzf mappings
 nmap <leader>f :Files<CR>
 nmap <leader>F :GFiles<CR>
