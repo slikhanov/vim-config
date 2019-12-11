@@ -46,7 +46,7 @@ let g:deoplete#enable_at_startup=1
 let mapleader = ";"
 
 " Align GitHub-flavored Markdown tables
-au FileType markdown vmap <Leader>t :EasyAlign*<Bar><Enter>
+au FileType markdown vmap <Leader>tb :EasyAlign*<Bar><Enter>
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
@@ -68,8 +68,11 @@ nmap <leader>f :Files<CR>
 nmap <leader>F :GFiles<CR>
 nmap <leader>b :Buffers<CR>
 nmap <leader>h :History<CR>
+nmap <Leader>t :BTags<CR>
+nmap <Leader>T :Tags<CR>
 nmap <leader>l :BLines<CR>
 nmap <leader>L :Lines<CR>
+nmap <leader>' :Marks<CR>
 nmap <leader>/ :Rg 
 nmap <leader>* :Rg <C-R><C-W><CR>
 
@@ -79,4 +82,8 @@ let g:perforce_prompt_on_open=0
 
 " Neomake configuration
 let g:neomake_open_list = 2
+
+" Gutentags configuration
+set statusline+=%{gutentags#statusline()}
+let g:gutentags_project_root = ['.gutctags']
 

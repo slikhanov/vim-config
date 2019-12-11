@@ -12,6 +12,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'IN3D/vim-raml'
 Plug 'nfvs/vim-perforce'
 Plug 'neomake/neomake'
+Plug 'ludovicchabant/vim-gutentags'
 Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 
 if has('nvim')
