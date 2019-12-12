@@ -86,4 +86,5 @@ let g:neomake_open_list = 2
 " Gutentags configuration
 set statusline+=%{gutentags#statusline()}
 let g:gutentags_project_root = ['.gutctags']
+let g:gutentags_cache_dir = "~/guttags"
 
