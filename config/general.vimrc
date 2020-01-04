@@ -34,6 +34,9 @@ try
 catch
 endtry
 
+" Scrolling
+set scrolloff=3
+
 " Use the same symbols as TextMate for tabstops and EOLs
 set listchars=tab:▸\ ,space:·,eol:¬
 
