@@ -76,8 +76,9 @@ nmap <Leader>T :Tags<CR>
 nmap <leader>l :BLines<CR>
 nmap <leader>L :Lines<CR>
 nmap <leader>' :Marks<CR>
-nmap <leader>/ :Rg 
-nmap <leader>* :Rg <C-R><C-W><CR>
+nmap <Leader>/ <Plug>RgRawSearch
+vmap <Leader>/ <Plug>RgRawVisualSelection
+nmap <Leader>* <Plug>RgRawWordUnderCursor
 
 " Perforce integration 
 let g:perforce_open_on_change=1

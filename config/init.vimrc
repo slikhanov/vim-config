@@ -15,6 +15,7 @@ Plug 'neomake/neomake'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 Plug 'psliwka/vim-smoothie'
+Plug 'jesseleite/vim-agriculture'
 
 if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
