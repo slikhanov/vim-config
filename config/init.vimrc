@@ -13,6 +13,7 @@ Plug 'IN3D/vim-raml'
 Plug 'nfvs/vim-perforce'
 Plug 'neomake/neomake'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'liuchengxu/vista.vim'
 Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 Plug 'psliwka/vim-smoothie'
 Plug 'jesseleite/vim-agriculture'
