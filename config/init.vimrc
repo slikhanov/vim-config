@@ -17,6 +17,8 @@ Plug 'liuchengxu/vista.vim'
 Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 Plug 'psliwka/vim-smoothie'
 Plug 'jesseleite/vim-agriculture'
+" Disabling this experimental plugin for now.
+" Plug 'neovim/nvim-lsp'
 
 if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
