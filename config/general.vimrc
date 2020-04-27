@@ -96,6 +96,13 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
+" See `man fzf-tmux` for available options
+"if exists('$TMUX')
+"  let g:fzf_layout = { 'tmux': '-p90%,60%' }
+"else
+  let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6 } }
+"endif
+
 " Perforce integration 
 let g:perforce_open_on_change=1
 let g:perforce_prompt_on_open=0
