@@ -16,6 +16,7 @@ set ignorecase smartcase
 
 set number
 set relativenumber
+set signcolumn=yes
 
 " Enable unified system clipboard
 set clipboard+=unnamedplus
@@ -76,9 +77,9 @@ nmap <Leader>T :Tags<CR>
 nmap <leader>l :BLines<CR>
 nmap <leader>L :Lines<CR>
 nmap <leader>' :Marks<CR>
-nmap <Leader>/ <Plug>RgRawSearch
-vmap <Leader>/ <Plug>RgRawVisualSelection
-nmap <Leader>* <Plug>RgRawWordUnderCursor
+nmap <leader>/ <Plug>RgRawSearch
+vmap <leader>/ <Plug>RgRawVisualSelection
+nmap <leader>* <Plug>RgRawWordUnderCursor
 
 " Fzf settings
 let g:fzf_colors =

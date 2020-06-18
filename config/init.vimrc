@@ -30,8 +30,8 @@ else
 endif
 
 " Deoplete integrations.
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
-Plug 'wokalski/autocomplete-flow', { 'do': 'npm install -g flow-bin' }
+" Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+" Plug 'wokalski/autocomplete-flow', { 'do': 'npm install -g flow-bin' }
 
 " Colorschemes
 Plug 'junegunn/seoul256.vim'
