@@ -13,25 +13,12 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'IN3D/vim-raml'
 Plug 'nfvs/vim-perforce'
 Plug 'neomake/neomake'
-Plug 'ludovicchabant/vim-gutentags'
+"Plug 'ludovicchabant/vim-gutentags'
 Plug 'liuchengxu/vista.vim'
 Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 Plug 'psliwka/vim-smoothie'
 Plug 'jesseleite/vim-agriculture'
-" Disabling this experimental plugin for now.
-" Plug 'neovim/nvim-lsp'
-
-if has('nvim')
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-    Plug 'Shougo/deoplete.nvim'
-    Plug 'roxma/nvim-yarp'
-    Plug 'roxma/vim-hug-neovim-rpc'
-endif
-
-" Deoplete integrations.
-" Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
-" Plug 'wokalski/autocomplete-flow', { 'do': 'npm install -g flow-bin' }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Colorschemes
 Plug 'junegunn/seoul256.vim'

@@ -24,3 +24,10 @@ else
     echo "init.vim is already sym-linked."
 fi
 
+if [ ! -f ~/.config/nvim/coc-settings.json ]; then
+    echo "Creating symlink to the coc-settings.json."
+    ln -s ~/vimconfig/coc-settings.json ~/.config/nvim/coc-settings.json
+else
+    echo "coc-settings.json is already sym-linked."
+fi
+
