@@ -35,6 +35,10 @@ try
 catch
 endtry
 
+if has('nvim')
+    set inccommand=nosplit
+endif
+
 " Scrolling
 set scrolloff=3
 
@@ -53,7 +57,7 @@ let mapleader = ";"
 au FileType markdown vmap <Leader>tb :EasyAlign*<Bar><Enter>
 
 " Shortcut to rapidly toggle `set list`
-nmap <leader>l :set list!<CR>
+nmap <leader>sl :set list!<CR>
 
 " Relative path  (src/foo.txt)
 nnoremap <leader>cf :let @*=expand("%")<CR>
@@ -110,4 +114,8 @@ let g:perforce_prompt_on_open=0
 
 " Neomake configuration
 let g:neomake_open_list = 2
+
+" Sideways configuration
+nmap <leader>> :SidewaysRight<cr>
+nmap <leader>< :SidewaysLeft<cr>
 

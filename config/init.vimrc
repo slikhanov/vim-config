@@ -19,6 +19,7 @@ Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 Plug 'psliwka/vim-smoothie'
 Plug 'jesseleite/vim-agriculture'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'AndrewRadev/sideways.vim'
 
 " Colorschemes
 Plug 'junegunn/seoul256.vim'
