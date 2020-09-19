@@ -119,3 +119,6 @@ let g:neomake_open_list = 2
 nmap <leader>> :SidewaysRight<cr>
 nmap <leader>< :SidewaysLeft<cr>
 
+" AsyncRun configuration
+let g:asyncrun_open = 6
+

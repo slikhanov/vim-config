@@ -20,6 +20,8 @@ Plug 'psliwka/vim-smoothie'
 Plug 'jesseleite/vim-agriculture'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'AndrewRadev/sideways.vim'
+Plug 'skywind3000/asynctasks.vim'
+Plug 'skywind3000/asyncrun.vim'
 
 " Colorschemes
 Plug 'junegunn/seoul256.vim'
