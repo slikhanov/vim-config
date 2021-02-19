@@ -59,6 +59,12 @@ au FileType markdown vmap <Leader>tb :EasyAlign*<Bar><Enter>
 " Shortcut to rapidly toggle `set list`
 nmap <leader>sl :set list!<CR>
 
+" Shortcut to rapidly toggle column cursor.
+nmap <leader>cc :set cursorcolumn!<CR> 
+"
+" Shortcut to rapidly toggle line cursor.
+nmap <leader>cl :set cursorline!<CR> 
+
 " Relative path  (src/foo.txt)
 nnoremap <leader>cf :let @*=expand("%")<CR>
 
