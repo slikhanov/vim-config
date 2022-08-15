@@ -9,5 +9,14 @@
                 "client": { "snippetSupport": true }
             }
         }
-    }
+    },
+    "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "tsserver.formatOnType": true,
+  "coc.preferences.formatOnType": true,
+  "solargraph.commandPath": "/Users/slikhanov/.rbenv/shims/solargraph"
 }

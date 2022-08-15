@@ -14,7 +14,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'IN3D/vim-raml'
 Plug 'nfvs/vim-perforce'
 Plug 'neomake/neomake'
-"Plug 'ludovicchabant/vim-gutentags'
 Plug 'liuchengxu/vista.vim'
 Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh \| UpdateRemotePlugins' }
 Plug 'psliwka/vim-smoothie'
@@ -24,6 +23,9 @@ Plug 'AndrewRadev/sideways.vim'
 Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'will133/vim-dirdiff'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 
 " Colorschemes
 Plug 'junegunn/seoul256.vim'
